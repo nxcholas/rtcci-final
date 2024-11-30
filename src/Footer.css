@@ -1,0 +1,61 @@
+@import '/node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
+
+
+@font-face {
+  font-family: 'ARP-Bold';
+  src: url(fonts/ARP-150.woff);
+}
+
+@font-face {
+  font-family: 'ARP-80';
+  src: url(fonts/ARP-80.woff);
+}
+
+@font-face {
+  font-family: 'ARP-40';
+  src: url(fonts/ARP-40.woff);
+}
+
+:root {
+  --background-primary: #56B8DC;
+  --background-secondary: #3292B5;
+  --background-dark: #3f88a2;
+  --background-light: #6CDFFF;
+  --text-light: #FFFA88;
+  --text-default: white;
+  --text-subtext: rgb(255, 255, 255);
+}
+
+#footer-section {
+  width: 100%;
+  height: 45vh;
+  background-color: var(--background-dark);
+  padding: 3rem;
+  padding-bottom: 1rem;
+  color: var(--text-default);
+  display: flex;
+}
+
+#footer-information-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#footer-information {
+  max-width: 40%;
+}
+
+#footer-information h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#footer-navigation {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  height: max-content;
+  font-family: 'ARP-80';
+}

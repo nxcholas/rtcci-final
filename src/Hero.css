@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'ARP-Bold';
+  src: url(fonts/ARP-150.woff);
+}
+
+@font-face {
+  font-family: 'ARP-80';
+  src: url(fonts/ARP-80.woff);
+}
+
+*{
+  margin: 0;
+}
+
+:root {
+  --background-primary: #56B8DC;
+  --background-secondary: #3292B5;
+  --background-light: #6CDFFF;
+  --text-default: white;
+}
+
+#hero-container {
+  height: 100vh;
+  background-color: var(--background-primary);
+  overflow-y: hidden;
+}
+
+#hero-body{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 20%;
+  height: 70%;
+  width: 90%;
+  margin-left: 4%;
+}
+
+#hero-content {
+  max-width: 60%;
+}
+
+#hero-buttons-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 150px;
+  font-family: 'ARP-80';
+}
+
+.btn-primary {
+  background-color: var(--background-light) !important;
+  font-size: 1rem !important;
+  border: none !important;
+  transition: 0.3s ease !important;
+  height: 50%;
+}
+
+.btn-primary:hover {
+  background-color: var(--background-secondary) !important;
+}
+
+.btn-secondary {
+  font-size: 1rem !important;
+}
+
+.btn-lg {
+  height: 50%;
+  border-radius: 8% !important;
+}
+
+/* Hero Image */
+#hero-image-container > img {
+  position: absolute;
+  right: -80px;
+  top: -51px;
+  filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.3));
+}
