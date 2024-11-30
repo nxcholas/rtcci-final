@@ -19,7 +19,7 @@ function Hero () {
     <section id='hero-container'>
       <div id='hero-body'>
         <div id='hero-content'>
-          <p className='sub-text1'>Business Consultant, CAa</p>
+          <p className='sub-text1'>Business Consultant, CA</p>
           <p className='main-text1'>Rising Tides Lifts All Ships</p>
           <p className='sub-text2'>Discover your next step foward, professionally and personally.</p>
           <div id='hero-buttons-container'>
