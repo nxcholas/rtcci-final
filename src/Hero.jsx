@@ -3,6 +3,18 @@ import './Hero.css'
 import heroImage from './hero-image.png';
 
 function Hero () {
+  const scrollToCoach = () => {
+    const targetDiv = document.getElementById('coaching-section');
+    if (targetDiv) {
+      const targetPosition = targetDiv.offsetTop - 75.2;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
+
   const scrollToForm = () => {
     const targetDiv = document.getElementById('contact-section-container');
     if (targetDiv) {
@@ -24,7 +36,7 @@ function Hero () {
           <p className='sub-text2'>Discover your next step foward, professionally and personally.</p>
           <div id='hero-buttons-container'>
           <button onClick={scrollToForm} className='btn btn-primary rounded-pill'>Book Appointment</button>
-          <button className='btn btn-secondary btn-lg rounded-pill bg-transparent border-0'>Learn More</button>
+          <button onClick={scrollToCoach} className='btn btn-secondary btn-lg rounded-pill bg-transparent border-0'>Learn More</button>
         </div>
         </div>
         <div id='hero-image-container'>

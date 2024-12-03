@@ -3,6 +3,18 @@ import people from './assets/people.png'
 import people2 from './assets/people2.png'
 
 function Coaching () {
+  const scrollToForm = () => {
+    const targetDiv = document.getElementById('contact-section-container');
+    if (targetDiv) {
+      const targetPosition = targetDiv.offsetTop - 75.2;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
+  
   return (
     <>
       <section  className='section-divider-wave1'
@@ -14,7 +26,7 @@ function Coaching () {
               <p>
               I offer coaching to help you <span className='span-text'>achieve your goals</span>, <span className='span-text'>improve relationships</span>, and <span className='span-text'>navigate transitions</span> with clarity. Together, we’ll enhance your strengths, skills, and strategies for a fulfilling path forward.
               </p>
-              <button id='coaching-button' className='btn btn-primary btn-small rounded-pill'>Book Now</button>
+              <button onClick={scrollToForm} id='coaching-button' className='btn btn-primary btn-small rounded-pill'>Book Now</button>
             </div>
             <img className='people1' src={people} height={375}></img>
           </div>
