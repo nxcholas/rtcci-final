@@ -56,22 +56,22 @@ const data = [
   },
   {
     name: `Michael Jones`,
-    img: `/rtcci-final/person3.png`,
+    img: `/rtcci-final/person3.PNG`,
     review: `“Adam's coaching skills are second to none; his passion and honed excellence at this craft is made immediately obv. . .`
   },
   {
     name: `Sarah Smith`,
-    img: `/rtcci-final/person4.png`,
+    img: `/rtcci-final/person4.PNG`,
     review: `"The growth I have experienced has created momentum not only in my professional life but in all aspects of life.  Adam. . "`
   },
   {
     name: `Jared Long`,
-    img: `/rtcci-final/person5.png`,
+    img: `/rtcci-final/person5.PNG`,
     review: `“As a leader in my community and business owner for over 20 years, it has been my passion to grow as a leader, father. . ."`
   },
   {
     name: `Elliot Johnson`,
-    img: `/rtcci-final/person6.png`,
+    img: `/rtcci-final/person6.PNG`,
     review: `“My coaching experience with Adam has been nothing short of amazing. From the times I go in knowing exactly . . ."`
   }
 ]
