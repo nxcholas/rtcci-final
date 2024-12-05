@@ -34,8 +34,8 @@ function Contact () {
               <input type='text' placeholder='First & Last Name *'></input>
               <input type='email' placeholder='Email *'></input>
               <input type='tel' placeholder='Phone Number *'></input>
-              <textarea id='contact-textarea' rows={6} cols={50} placeholder='Tell me a bit more about why yourself! *'></textarea>
-              <button id='form-button'className='rounded-pill'>Send Message</button>
+              <textarea id='contact-textarea' rows={6} cols={50} placeholder='Tell me a bit more about why you would like to reach out! *'></textarea>
+              <button type='submit' id='form-button'className='rounded-pill'>Send Message</button>
             </form>
           </div>
         </div>
