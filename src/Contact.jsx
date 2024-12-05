@@ -35,7 +35,9 @@ function Contact () {
               <input type='email' placeholder='Email *'></input>
               <input type='tel' placeholder='Phone Number *'></input>
               <textarea id='contact-textarea' rows={6} cols={50} placeholder='Tell me a bit more about why you would like to reach out! *'></textarea>
-              <button type='submit' id='form-button'className='rounded-pill'>Send Message</button>
+              <button onClick={() => {
+                alert("Form Submitted")
+              }} type='submit' id='form-button'className='rounded-pill'>Send Message</button>
             </form>
           </div>
         </div>
